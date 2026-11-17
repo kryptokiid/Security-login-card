@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security login card</title>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Sign In</h1>
+    <div class="welcome">Welcome to the platform</div>
+
+    <div class="field">
+      <h2>Email</h2>
+      <p>you@example.com</p>
+    </div>
+
+    <div class="field">
+      <h3>Password</h3>
+      <p>*******</p>
+    </div>
+
+    <div class="field">
+      <h4>Confirm Password</h4>
+      <p>*******</p>
+    </div>
+
+    <div class="buttons">
+      <a class="button primary" href="#" target="_blank">Sign In</a>
+      <a class="button secondary" href="#" target="_blank">Forgot Password</a>
+    </div>
+  </div>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1e1b4b, #6d28d9);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card {
+      width: 360px;
+      padding: 30px;
+      background: #231f3d;
+      border: 1px solid #3a3566;
+      border-radius: 20px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .welcome,
+    .field p {
+      color: white;
+      margin: 5px 0;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .button {
+      width: 100px;
+      padding: 10px 12px;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .primary,
+    .secondary {
+      background-color: #7c3aed;
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+  </style>
+</body>
+
+</html>
